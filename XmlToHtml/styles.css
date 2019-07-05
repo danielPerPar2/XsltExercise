@@ -1,0 +1,8 @@
+.rows:nth-child(odd)
+{
+	background-color : #22AA22;
+}
+.rows:nth-child(even)
+{
+	background-color : #AA22AA;
+}

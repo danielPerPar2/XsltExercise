@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ShoppingLists">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="ShoppingList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" type="xs:string" />
+              <xs:element name="Name" type="xs:string" />
+              <xs:element name="Description" type="xs:string" />
+              <xs:element name="CreationDate" type="xs:string" />
+              <xs:element name="ShoppingItems">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="ShoppingItem">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Id" type="xs:string" />
+                          <xs:element name="ShoppingListId" type="xs:string" />
+                          <xs:element name="Description" type="xs:string" />
+                          <xs:element name="Quantity" type="xs:decimal" />
+                          <xs:element name="Status" type="xs:unsignedByte" />
+                          <xs:element name="Unit" type="xs:unsignedByte" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

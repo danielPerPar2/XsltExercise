@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ShoppingLists>
+  <ShoppingList>
+    <Id>1A9FDE75-D86A-437D-B4D7-10CF40E280CB</Id>
+    <Name>Polleria</Name>
+    <Description>Lista de la polleria</Description>
+    <CreationDate>2015-03-02 13:39:44.420</CreationDate>
+    <ShoppingItems>
+      <ShoppingItem>
+        <Id>9d61f07d-59c9-4c6a-82ed-dbb2546898e9</Id>
+        <ShoppingListId>1A9FDE75-D86A-437D-B4D7-10CF40E280CB</ShoppingListId>
+        <Description>Alas</Description>
+        <Quantity>2.0</Quantity>
+        <Status>1</Status>
+        <Unit>1</Unit>
+      </ShoppingItem>
+      <ShoppingItem>
+        <Id>E626FC5E-4F9E-4A5B-86EE-6C5325EF4846</Id>
+        <ShoppingListId>1A9FDE75-D86A-437D-B4D7-10CF40E280CB</ShoppingListId>
+        <Description>Hamburguesa</Description>
+        <Quantity>3.0</Quantity>
+        <Status>1</Status>
+        <Unit>1</Unit>
+      </ShoppingItem>
+    </ShoppingItems>
+  </ShoppingList>
+  <ShoppingList>
+    <Id>AF9D0AD1-F39B-467E-AC55-4AC5D616F086</Id>
+    <Name>Percaderia</Name>
+    <Description>Lista de la pescaderia</Description>
+    <CreationDate>2015-03-03 13:39:44.420</CreationDate>
+    <ShoppingItems>
+      <ShoppingItem>
+        <Id>AD186161-C5B5-44F4-BC05-FBF58238ABE3</Id>
+        <ShoppingListId>AF9D0AD1-F39B-467E-AC55-4AC5D616F086</ShoppingListId>
+        <Description>Gambas</Description>
+        <Quantity>2</Quantity>
+        <Status>1</Status>
+        <Unit>1</Unit>
+      </ShoppingItem>
+      <ShoppingItem>
+        <Id>842538C1-C06F-46B7-9EF4-E96E397C3810</Id>
+        <ShoppingListId>AF9D0AD1-F39B-467E-AC55-4AC5D616F086</ShoppingListId>
+        <Description>Boquerones</Description>
+        <Quantity>4.0</Quantity>
+        <Status>1</Status>
+        <Unit>1</Unit>
+      </ShoppingItem>
+    </ShoppingItems>
+  </ShoppingList>
+</ShoppingLists>
+
